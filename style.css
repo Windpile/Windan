@@ -1,0 +1,45 @@
+/* Starter */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url(/Theme/CSS/Night.css);
+@import url(/Theme/CSS/Media.css);
+@import url(/Theme/CSS/mdModal.css);
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+body {
+    font-family: "Tajawal";
+    background: #fcfcfc;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* The Main Adds */
+.none {
+  display:none;
+}
+
+/* Notification Style */
+.notification {
+    text-align: center;
+    background: #371a58;
+    padding: 10px;
+}
+.notification p {
+    padding: 0px;
+    margin: 0px;
+}
+.notification p a {
+    color: #c692fd;
+    text-decoration: none;
+}
