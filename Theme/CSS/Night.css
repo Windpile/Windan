@@ -1,0 +1,8 @@
+/* Night Style */
+body.Night {
+    background: #1c1424;
+    color: #fff;
+}
+.Night a {
+    color: #6c1cc2;
+}
